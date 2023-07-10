@@ -9,7 +9,8 @@ def measure_time(n: int, max_delay:int) ->float:
     """Measuring the time difference between times"""
     start = time()
     asyncio.run(wait_n(n, max_delay))
-    return(time() - start)	
+    total_time = time() - start
+    return total_time / n
     
     
 
