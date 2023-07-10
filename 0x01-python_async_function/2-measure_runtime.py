@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 """finding time delta for the async functions"""
 
 from time import time
