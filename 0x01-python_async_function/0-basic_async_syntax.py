@@ -1,11 +1,11 @@
-#!usr/bin/env python3
-"""Async couritine implementation"""
-
+#!/usr/bin/env python3
+"""implmenting the async coroutine"""
 import asyncio
 import random
 
+
 async def wait_random(max_delay: int = 10) -> float:
-    """async coroutine"""
+    """async coroutine delay funct"""
     delay = random.uniform(0, max_delay)
     await asyncio.sleep(delay)
     return delay
