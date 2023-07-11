@@ -4,7 +4,7 @@ import asyncio
 import random
 from tryping import List
 
-async def async_generator() -> List[float]:
+async def async_generator() -> float:
     """Coroutine will loop 10 times, each time asynchronously wait 1 second,"""
     for i in range(10):
         await asyncio.sleep(1)
