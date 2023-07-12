@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Couroutine that will exercute async_comprehension asychronously"""
 
 
